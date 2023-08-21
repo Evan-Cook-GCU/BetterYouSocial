@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "BetterYouSocialAPI",
+    "environment"    : "BetterYouSocialAPI-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.5.6 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "BetterYouSocialAPI-dev",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "pluralsitedemo",
+    "instance-profile"     : "aws-elasticbeanstalk-BetterYouSocialAPI-dev",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
